@@ -17,6 +17,8 @@ dependencies {
     testImplementation 'com.codeborne:selenide:6.12.2'
     implementation 'com.github.javafaker:javafaker:1.0.2'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+    testCompileOnly 'org.projectlombok:lombok:1.18.28'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.28'
 }
 
 test {
